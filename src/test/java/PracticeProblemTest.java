@@ -18,7 +18,7 @@ public class PracticeProblemTest {
       PracticeProblem.q1();
 
       // assertion
-      assertEquals("true\n", bos.toString());
+      assertEquals("Input a boolean: true\n", bos.toString());
 
       // undo the binding in System
       System.setOut(originalOut);
@@ -38,7 +38,7 @@ public class PracticeProblemTest {
       PracticeProblem.q1();
 
       // assertion
-      assertEquals("false\n", bos.toString());
+      assertEquals("Input a boolean: false\n", bos.toString());
 
       // undo the binding in System
       System.setOut(originalOut);
@@ -58,7 +58,7 @@ public class PracticeProblemTest {
       PracticeProblem.q2();
 
       // assertion
-      assertEquals("true\n", bos.toString());
+      assertEquals("Input an integer: true\n", bos.toString());
 
       // undo the binding in System
       System.setOut(originalOut);
@@ -78,7 +78,7 @@ public class PracticeProblemTest {
       PracticeProblem.q2();
 
       // assertion
-      assertEquals("false\n", bos.toString());
+      assertEquals("Input an integer: false\n", bos.toString());
 
       // undo the binding in System
       System.setOut(originalOut);
@@ -98,7 +98,7 @@ public class PracticeProblemTest {
       PracticeProblem.q2();
 
       // assertion
-      assertEquals("false\n", bos.toString());
+      assertEquals("Input an integer: false\n", bos.toString());
 
       // undo the binding in System
       System.setOut(originalOut);
@@ -118,7 +118,7 @@ public class PracticeProblemTest {
       PracticeProblem.q3();
 
       // assertion
-      assertEquals("true\n", bos.toString());
+      assertEquals("Input pizza: true\n", bos.toString());
 
       // undo the binding in System
       System.setOut(originalOut);
@@ -138,7 +138,7 @@ public class PracticeProblemTest {
       PracticeProblem.q3();
 
       // assertion
-      assertEquals("false\n", bos.toString());
+      assertEquals("Input pizza: false\n", bos.toString());
 
       // undo the binding in System
       System.setOut(originalOut);
@@ -158,7 +158,7 @@ public class PracticeProblemTest {
       PracticeProblem.q3();
 
       // assertion
-      assertEquals("false\n", bos.toString());
+      assertEquals("Input pizza: false\n", bos.toString());
 
       // undo the binding in System
       System.setOut(originalOut);
@@ -178,7 +178,7 @@ public class PracticeProblemTest {
       PracticeProblem.q4();
 
       // assertion
-      assertEquals("true\n", bos.toString());
+      assertEquals("Input a number: true\n", bos.toString());
 
       // undo the binding in System
       System.setOut(originalOut);
@@ -198,7 +198,7 @@ public class PracticeProblemTest {
       PracticeProblem.q4();
 
       // assertion
-      assertEquals("false\n", bos.toString());
+      assertEquals("Input a number: false\n", bos.toString());
 
       // undo the binding in System
       System.setOut(originalOut);
@@ -218,7 +218,7 @@ public class PracticeProblemTest {
       PracticeProblem.q4();
 
       // assertion
-      assertEquals("false\n", bos.toString());
+      assertEquals("Input a number: false\n", bos.toString());
 
       // undo the binding in System
       System.setOut(originalOut);
@@ -238,7 +238,7 @@ public class PracticeProblemTest {
       PracticeProblem.q5();
 
       // assertion
-      assertEquals("true\n", bos.toString());
+      assertEquals("Input an integer: true\n", bos.toString());
 
       // undo the binding in System
       System.setOut(originalOut);
@@ -258,7 +258,7 @@ public class PracticeProblemTest {
       PracticeProblem.q5();
 
       // assertion
-      assertEquals("false\n", bos.toString());
+      assertEquals("Input an integer: false\n", bos.toString());
 
       // undo the binding in System
       System.setOut(originalOut);
@@ -278,7 +278,7 @@ public class PracticeProblemTest {
       PracticeProblem.q5();
 
       // assertion
-      assertEquals("true\n", bos.toString());
+      assertEquals("Input an integer: true\n", bos.toString());
 
       // undo the binding in System
       System.setOut(originalOut);
@@ -298,7 +298,7 @@ public class PracticeProblemTest {
       PracticeProblem.q6();
 
       // assertion
-      assertEquals("false\n", bos.toString());
+      assertEquals("Input a word earlier than google: false\n", bos.toString());
 
       // undo the binding in System
       System.setOut(originalOut);
@@ -318,7 +318,7 @@ public class PracticeProblemTest {
       PracticeProblem.q6();
 
       // assertion
-      assertEquals("true\n", bos.toString());
+      assertEquals("Input a word earlier than google: true\n", bos.toString());
 
       // undo the binding in System
       System.setOut(originalOut);
@@ -338,7 +338,7 @@ public class PracticeProblemTest {
       PracticeProblem.q6();
 
       // assertion
-      assertEquals("false\n", bos.toString());
+      assertEquals("Input a word earlier than google: false\n", bos.toString());
 
       // undo the binding in System
       System.setOut(originalOut);
